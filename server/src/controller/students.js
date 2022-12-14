@@ -1,4 +1,4 @@
-const students = require('../model/students');
+const students = require('../db/students');
 const xlsx = require('xlsx');
 const workbook = xlsx.readFile('countbyage.xlsx');
 const sheet = workbook.SheetNames;

@@ -4,8 +4,6 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const router = require('./routes/router');
 const session = require('express-session');
-const bodyparser = require('body-parser');
-const jwt = require('jsonwebtoken');
 
 mongoose.connect("mongodb://localhost:27017/obserait",
 {

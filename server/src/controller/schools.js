@@ -1,5 +1,5 @@
-const schools = require('../model/schools');
-const students = require('../model/students');
+const schools = require('../db/schools');
+const students = require('../db/students');
 const bcrypt = require('bcrypt');
 
 module.exports = ({
